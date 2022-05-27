@@ -1,9 +1,5 @@
 /* Basic Style */
-body {
-  background-color: #f8f8f8;
-  color: #333;
-  font-family: Lato, sans-serif;
-}
+
 ul {
   margin: 0;
   padding: 0px;
@@ -16,7 +12,12 @@ input,
 button{
   outline: none;
 }
-
+/*----end---*/
+.basic {
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
+}
 .wrapper{
   width: 500px;
   margin: 0 auto;
@@ -119,17 +120,17 @@ button{
   width: 226px;
 }
 
-.button-delete__img {
+.button-action__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button-delete__img:hover {
+.button-action__img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.task-name-complete {
+.task-name_complete {
   text-decoration: line-through;
   color: #888;
 }
