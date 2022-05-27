@@ -171,8 +171,8 @@ var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
 //select ListItems children
     var checkBox=taskListItem.querySelector("input[type=checkbox]");
     var editButton=taskListItem.querySelector("button.button-action_edit");
-    var deleteButton=taskListItem.querySelector("button.button-action_delete");
 
+    var deleteButton=taskListItem.querySelector("button.button-action_delete");
 
     //Bind editTask to edit button.
     editButton.onclick=editTask;
